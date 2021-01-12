@@ -1,0 +1,8 @@
+{
+  "name": "Playlist UI",
+  "title": "Playlist UI",
+  "description": "An improved playlist user interface for Foundry.",
+  "author": "Daermion",
+  "version": "0.1.0",
+  "minimumCoreVersion": "0.7.4"
+}
