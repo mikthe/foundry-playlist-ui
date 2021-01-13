@@ -1,8 +1,12 @@
 {
-  "name": "Playlist UI",
-  "title": "Playlist UI",
-  "description": "An improved playlist user interface for Foundry.",
-  "author": "Daermion",
-  "version": "0.1.0",
-  "minimumCoreVersion": "0.7.4"
+    "name": "playlist-ui",
+    "title": "Playlist UI",
+    "description": "An improved playlist user interface for Foundry.",
+    "author": "Daermion",
+    "version": "0.0.2",
+    "minimumCoreVersion": "0.7.0",
+    "compatibleCoreVersion": "0.7.0",
+    "scripts": [
+        "./scripts/main.js"
+    ]
 }
