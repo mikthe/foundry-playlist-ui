@@ -33,7 +33,6 @@ class PlaylistControllerInitializer {
     static hookReady() {
         Hooks.on("ready", () => {
             PLCR.playlistController = new PlaylistController();
-            // TO-DO: Register all settings
         });
     }
 }
