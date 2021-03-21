@@ -45,7 +45,8 @@ class PlaylistController {
 
     async search(searchString) {
         if (searchString.length > 3) {
-            let collection = $(this.directoryItemSelector + ` .sound-name:contains(${searchString}):not(selector)`);
+            let collection = $(this.directoryItemSelector + ` .sound-name:not(selector)`)
+                                .filter((_, el) => el.innerHTML.toLowerCase().indexOf(searchString.toLowerCase()) > -1);
             if(collection.length > 0) {
                 $(this.directoryItemSelector + ` .sound`).hide();
                 collection.each(function() {
